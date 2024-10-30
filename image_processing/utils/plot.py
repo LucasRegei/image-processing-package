@@ -1,11 +1,13 @@
 import matplotlib.pyplot as plt
 
+# Plot the image
 def plot_image(image):
     plt.figure(figsize=(12, 4))
     plt.imshow(image, cmap='gray')
     plt.axis('off')
     plt.show()
 
+# Show plot result
 def plot_result(*args):
     number_images = len(args)
     fig, axis = plt.subplots(nrows=1, ncols = number_images, figsize=(12, 4))
