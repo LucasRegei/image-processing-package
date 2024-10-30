@@ -20,6 +20,7 @@ def plot_result(*args):
     fig.tight_layout()
     plt.show()
 
+# Plot histogram using RGB colors
 def plot_histogram(image):
     fig, axis = plt.subplots(nrows=1, ncols = 3, figsize=(12, 4), sharex=True, sharey=True)
     color_lst = ['red', 'green', 'blue']
